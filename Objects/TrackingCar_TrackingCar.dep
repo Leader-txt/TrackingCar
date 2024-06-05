@@ -1,0 +1,36 @@
+Dependencies for Project 'TrackingCar', Target 'TrackingCar': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (.\Src\main.c)(0x666041A3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I includes-I./RTE/_TrackingCar-IC:/Users/32512/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/32512/AppData/Local/Arm/Packs/TexasInstruments/MSP432P4xx_DFP/3.2.6/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__MSP432P401R__-o ./objects/main.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp.h)(0x66600390)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r.h)(0x66600390)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp_compatibility.h)(0x66600390)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r_classic.h)(0x66600390)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\system_msp432p401r.h)(0x66600390)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.hxncludes\aes256.h)(0x00000000)
+I (includes\comp_e.hMncludes\cpu.h\ncludes\crc32.hencludes\cs.h)(0x00000000)
+I (includes\dma.hencludes\eusci.hhncludes\flash.hhncludes\fpu.h)(0x00000000)
+I (includes\gpio.hnncludes\i2c.hhncludes\interrupt.hlncludes\mpu.h)(0x00000000)
+I (includes\pcm.hhncludes\pmap.hhncludes\pss.hrncludes\ref_a.h)(0x00000000)
+I (includes\reset.hcncludes\rom.hnncludes\rom_map.hdncludes\rtc_c.h)(0x00000000)
+I (includes\spi.h.ncludes\sysctl.hnncludes\systick.hnncludes\timer32.h)(0x00000000)
+I (includes\timer_a.huncludes\uart.hcncludes\wdt_a.h)(0x00000000)
+F (.\Lib\msp432p4xx_driverlib.lib)(0x56A07FF2)()
+F (RTE/Device/MSP432P401R/startup_msp432p401r_uvision.s)(0x66600390)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_TrackingCar-IC:/Users/32512/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/32512/AppData/Local/Arm/Packs/TexasInstruments/MSP432P4xx_DFP/3.2.6/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"__MSP432P401R__ SETA 1"-o ./objects/startup_msp432p401r_uvision.o)
+F (RTE/Device/MSP432P401R/system_msp432p401r.c)(0x66600390)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I includes-I./RTE/_TrackingCar-IC:/Users/32512/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/32512/AppData/Local/Arm/Packs/TexasInstruments/MSP432P4xx_DFP/3.2.6/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -D_RTE_ -D__MSP432P401R__-o ./objects/system_msp432p401r.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp.h)(0x66600390)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r.h)(0x66600390)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp_compatibility.h)(0x66600390)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\msp432p401r_classic.h)(0x66600390)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Users\32512\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include\system_msp432p401r.h)(0x66600390)
